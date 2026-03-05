@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "JSON Swiss Knife",
+    "description": "Boîte à outils JSON tout-en-un hors ligne"
+  },
+  "tools": {
+    "format": "Formater",
+    "validate": "Valider",
+    "diff": "Comparer",
+    "schema": "Schéma",
+    "convert": "Convertir",
+    "fix": "Réparer JSON"
+  },
+  "actions": {
+    "prettify": "Embellir",
+    "minify": "Minifier",
+    "sortKeys": "Trier les clés",
+    "copy": "Copier",
+    "clear": "Effacer",
+    "download": "Télécharger",
+    "upload": "Importer un fichier",
+    "apply": "Appliquer",
+    "compare": "Comparer",
+    "convert": "Convertir",
+    "fix": "Réparer"
+  },
+  "editor": {
+    "placeholder": "Collez ou tapez votre JSON ici...",
+    "dropzone": "Déposez un fichier JSON ici"
+  },
+  "results": {
+    "valid": "JSON valide",
+    "invalid": "JSON invalide",
+    "errors": "erreurs",
+    "noErrors": "Aucune erreur trouvée",
+    "line": "Ligne",
+    "column": "Col",
+    "empty": "Entrez du JSON pour commencer",
+    "identical": "Les objets sont identiques",
+    "processing": "Traitement..."
+  },
+  "diff": {
+    "jsonA": "JSON A",
+    "jsonB": "JSON B",
+    "added": "ajouté",
+    "removed": "supprimé",
+    "modified": "modifié",
+    "noChanges": "Aucune différence détectée"
+  },
+  "schema": {
+    "data": "Données JSON",
+    "definition": "Schéma JSON",
+    "hint": "Valider le JSON contre le schéma"
+  },
+  "convert": {
+    "jsonToCsv": "JSON → CSV",
+    "csvToJson": "CSV → JSON",
+    "delimiter": "Délimiteur",
+    "headerRow": "Ligne d'en-tête",
+    "inferTypes": "Inférer les types",
+    "flattenKeys": "Aplatir les clés",
+    "rows": "lignes",
+    "output": "Résultat",
+    "hint": "Convertir pour voir le résultat"
+  },
+  "fix": {
+    "hint": "Collez du JSON cassé et cliquez Réparer",
+    "alreadyValid": "Le JSON est déjà valide !",
+    "changes": "Modifications appliquées",
+    "confidence": "confiance",
+    "preview": "Aperçu du JSON réparé",
+    "cannotFix": "Impossible de réparer le JSON"
+  },
+  "settings": {
+    "indent": "Indentation",
+    "theme": "Thème",
+    "language": "Langue"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "JSON Swiss Knife",
+    "description": "All-in-one offline JSON toolkit"
+  },
+  "tools": {
+    "format": "Format",
+    "validate": "Validate",
+    "diff": "Diff",
+    "schema": "Schema",
+    "convert": "Convert",
+    "fix": "Fix JSON"
+  },
+  "actions": {
+    "prettify": "Prettify",
+    "minify": "Minify",
+    "sortKeys": "Sort Keys",
+    "copy": "Copy",
+    "clear": "Clear",
+    "download": "Download",
+    "upload": "Upload File",
+    "apply": "Apply Fix",
+    "compare": "Compare",
+    "convert": "Convert",
+    "fix": "Fix"
+  },
+  "editor": {
+    "placeholder": "Paste or type your JSON here...",
+    "dropzone": "Drop a JSON file here"
+  },
+  "results": {
+    "valid": "Valid JSON",
+    "invalid": "Invalid JSON",
+    "errors": "errors",
+    "noErrors": "No errors found",
+    "line": "Line",
+    "column": "Col",
+    "empty": "Enter JSON to get started",
+    "identical": "Objects are identical",
+    "processing": "Processing..."
+  },
+  "diff": {
+    "jsonA": "JSON A",
+    "jsonB": "JSON B",
+    "added": "added",
+    "removed": "removed",
+    "modified": "modified",
+    "noChanges": "No changes detected"
+  },
+  "schema": {
+    "data": "JSON Data",
+    "definition": "JSON Schema",
+    "hint": "Validate JSON against schema"
+  },
+  "convert": {
+    "jsonToCsv": "JSON → CSV",
+    "csvToJson": "CSV → JSON",
+    "delimiter": "Delimiter",
+    "headerRow": "Header row",
+    "inferTypes": "Infer types",
+    "flattenKeys": "Flatten keys",
+    "rows": "rows",
+    "output": "Output",
+    "hint": "Convert to see output"
+  },
+  "fix": {
+    "hint": "Paste broken JSON and click Fix",
+    "alreadyValid": "JSON is already valid!",
+    "changes": "Changes applied",
+    "confidence": "confidence",
+    "preview": "Fixed output preview",
+    "cannotFix": "Could not repair JSON"
+  },
+  "settings": {
+    "indent": "Indent",
+    "theme": "Theme",
+    "language": "Language"
+  }
+}
