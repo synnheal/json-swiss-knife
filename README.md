@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# JSON Swiss Knife
 
-First, run the development server:
+**The all-in-one JSON toolkit: format, validate, diff, convert, fix, and generate schemas.**
+
+*La boite a outils JSON tout-en-un : formatage, validation, diff, conversion, reparation et generation de schemas.*
+
+[English](#english) | [Francais](#francais)
+
+</div>
+
+---
+
+## English
+
+### What is JSON Swiss Knife?
+
+JSON Swiss Knife is a feature-rich browser-based JSON editor powered by Monaco Editor. Format messy JSON, validate against schemas, diff two documents, convert between JSON and CSV, auto-fix broken JSON, and generate JSON schemas — all in one workspace.
+
+### Features
+
+- **Monaco Editor** — Full-featured JSON editor with syntax highlighting and autocomplete
+- **Format & Minify** — Prettify or compress JSON with one click
+- **Schema Validation** — Validate JSON against JSON Schema (AJV)
+- **JSON Diff** — Compare two JSON documents with visual diff
+- **JSON <-> CSV Conversion** — Bidirectional conversion with PapaParse
+- **Tolerant Parser** — Auto-fix broken JSON (trailing commas, missing quotes, etc.)
+- **Schema Generation** — Infer JSON Schema from your data
+- **Web Worker** — Heavy operations run off the main thread
+- **Dark / Light Mode** — Theme toggle
+- **Bilingual UI** — Full English & French interface
+
+### Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript |
+| Editor | Monaco Editor |
+| UI | Tailwind CSS 4 + shadcn/ui + Radix UI |
+| State | Zustand |
+| Validation | AJV + ajv-formats |
+| Diff | jsondiffpatch |
+| CSV | PapaParse |
+| Parser | jsonc-parser |
+| i18n | next-intl |
+
+### Getting Started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Francais
 
-## Learn More
+### Qu'est-ce que JSON Swiss Knife ?
 
-To learn more about Next.js, take a look at the following resources:
+JSON Swiss Knife est un editeur JSON complet dans le navigateur propulse par Monaco Editor. Formatez du JSON brouillon, validez contre des schemas, comparez deux documents, convertissez entre JSON et CSV, reparez du JSON casse, et generez des schemas — tout dans un seul espace de travail.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Fonctionnalites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Editeur Monaco** — Editeur JSON complet avec coloration syntaxique et autocompletion
+- **Formatage et Minification** — Embellir ou compresser le JSON en un clic
+- **Validation de Schema** — Validez le JSON contre un JSON Schema (AJV)
+- **Diff JSON** — Comparez deux documents JSON avec diff visuel
+- **Conversion JSON <-> CSV** — Conversion bidirectionnelle avec PapaParse
+- **Parseur Tolerant** — Repare automatiquement le JSON casse (virgules finales, guillemets manquants, etc.)
+- **Generation de Schema** — Inferez un JSON Schema depuis vos donnees
+- **Web Worker** — Les operations lourdes s'executent hors du thread principal
+- **Mode Sombre / Clair** — Bascule de theme
+- **Interface Bilingue** — Anglais et francais complets
 
-## Deploy on Vercel
+### Demarrage Rapide
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ouvrez [http://localhost:3000](http://localhost:3000).
+
+---
+
+<div align="center">
+
+**Built with Next.js, TypeScript & Tailwind CSS**
+
+</div>
